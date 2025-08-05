@@ -48,7 +48,7 @@ const SkillsSection: React.FC = () => {
             <div className="text-center">
               <div className="relative mb-6">
                 <div 
-                  className="relative rounded-2xl p-6 overflow-hidden h-80 bg-cover bg-center group cursor-pointer transition-all duration-500 shadow-lg"
+                  className="relative rounded-2xl p-8 overflow-hidden h-80 bg-cover bg-center group cursor-pointer transition-all duration-500"
                   style={{
                     backgroundImage: `url(${skills[currentSkill].backgroundImage})`
                   }}
@@ -121,7 +121,7 @@ const SkillsSection: React.FC = () => {
                           <div className="relative mb-6">
                             {position === 0 && (
                               <div 
-                                className="relative rounded-2xl p-8 overflow-hidden h-80 bg-cover bg-center group cursor-pointer transition-all duration-700 shadow-lg"
+                                className="relative rounded-2xl p-8 overflow-hidden h-80 bg-cover bg-center group cursor-pointer transition-all duration-700"
                                 style={{
                                   backgroundImage: `url(${skill.backgroundImage})`
                                 }}
@@ -143,7 +143,7 @@ const SkillsSection: React.FC = () => {
                               </div>
                             )}
                             {position !== 0 && (
-                              <div className="bg-white rounded-2xl p-8 h-80 flex flex-col justify-center transition-all duration-700 shadow-md hover:shadow-lg">
+                              <div className="bg-white rounded-2xl p-8 h-80 flex flex-col justify-center transition-all duration-700  hover:shadow-lg">
                                 <h3 className={`text-2xl font-bold mb-4 font-cabinet ${
                                   position === 1 || position === 2 ? 'text-gray-600' : 'text-gray-400'
                                 }`}>
