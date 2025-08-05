@@ -10,6 +10,31 @@ const HeroSection: React.FC = () => {
   const isVisible = useScrollAnimation();
   const t = content[language];
 
+  // Function to handle smooth scroll to about section
+  const handleExploreCourses = () => {
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+
+  // Function to handle get started button (you can customize this)
+  const handleGetStarted = () => {
+    const coursesSection = document.getElementById('courses') || document.getElementById('services');
+    if (coursesSection) {
+      coursesSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    } else {
+      // Fallback: scroll to about section if courses section doesn't exist
+      handleExploreCourses();
+    }
+  };
+
   return (
     <section id="home" className="relative min-h-screen w-full overflow-hidden pt-16">
       {/* Background with your custom image */}
@@ -36,13 +61,18 @@ const HeroSection: React.FC = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
-                
+                  onClick={handleExploreCourses}
                   style={{ backgroundColor: '#F58321' }}
-                  className="px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-black"
+                  className="px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-black hover:brightness-110 focus:outline-none focus:ring-4 focus:ring-orange-500/50"
+                  aria-label="Explore courses and learn more about our offerings"
                 >
                   {t.exploreButton}
                 </button>
-                <button className="border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                <button 
+                  onClick={handleGetStarted}
+                  className="border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-white/50"
+                  aria-label="Get started with our courses"
+                >
                   {t.getStartedButton}
                 </button>
               </div>
