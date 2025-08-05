@@ -87,7 +87,7 @@ const ContactSection: React.FC = () => {
   const labels = formLabels[language];
 
   return (
-    <section id="contact">
+    <section id="contact" className='bg-gray-50'>
       <div className="py-20 max-w-7xl mx-auto h-full px-6 rounded-lg" style={{ backgroundColor: '#FAF6F3' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className={`text-center mb-16 transform transition-all duration-1000 ${isVisible.contact ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>

@@ -139,7 +139,7 @@ export const testimonials: Testimonial[] = [
 ];
 
 export const contactInfo: ContactInfo = {
-  phone: '+91 80569 76511',
+  phone: '+91 80560 76511',
   whatsapp: '+91 94449 26755',
   address: 'Plot No: 123A, Door No: 5C, CLC Works Road, Chrompet, Chennai - 600 044',
   addressTamil: 'பிளாட் எண்: 123A, கதவு எண்: 5C, CLC வொர்க்ஸ் ரோடு, குரோம்பேட், சென்னை - 600 044'
