@@ -14,7 +14,7 @@ import './styles/fonts.css';
 const App: React.FC = () => {
   return (
     <LanguageProvider>
-      <div className="min-h-screen bg-gray-50 bg-gradient-to-br from-teal-900 via-teal-800 to-teal-700 w-full overflow-x-hidden font-cabinet">
+      <div className="min-h-screen bg-gradient-to-br from-teal-900 via-teal-800 to-teal-700 w-full overflow-x-hidden font-cabinet "style={{ backgroundColor: '#f4f4f4' }}>
         <Header />
         <HeroSection />
         <AboutSection />

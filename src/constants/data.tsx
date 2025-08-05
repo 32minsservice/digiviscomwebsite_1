@@ -41,6 +41,24 @@ export const skills: Skill[] = [
     title: 'Graphic Design',
     titleTamil: 'வரைகலை வடிவமைப்பு',
     backgroundImage: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+  },
+  {
+    id: 4,
+    title: 'Digital Journalism',
+    titleTamil: 'டிஜிட்டல் இதழியல்',
+    backgroundImage: Photography
+  },
+  {
+    id: 5,
+    title: 'Content Creation',
+    titleTamil: 'உள்ளடக்க உருவாக்கம்',
+    backgroundImage: 'https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+  },
+  {
+    id: 6,
+    title: 'AI in Media',
+    titleTamil: 'ஊடகங்களில் AI',
+    backgroundImage: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   }
 ];
 
@@ -166,7 +184,7 @@ export const content = {
     footerTagline: 'Your Media Career Begins Here.',
     joinToday: 'Join Us Today',
     connectButton: 'Connect with Us',
-    copyright: 'Copyright © DigiViscom 2025. All Rights Reserved.'
+    copyright: 'Copyright © DigiViscom 2025. All Rights Reserved. | Powered by 32Mins Digital Consultancy Services'
   },
   ta: {
     heroTitle: 'ஊடக திறனை',
@@ -188,6 +206,6 @@ export const content = {
     footerTagline: 'உங்கள் ஊடக தொழில் இங்கே தொடங்குகிறது.',
     joinToday: 'இன்றே எங்களுடன் சேருங்கள்',
     connectButton: 'எங்களுடன் இணையுங்கள்',
-    copyright: 'பதிப்புரிமை © DigiViscom 2025. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.'
+    copyright: 'பதிப்புரிமை © DigiViscom 2025. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை. | 32Mins டிஜிட்டல் கன்சல்டன்சி சர்வீசஸ் மூலம் இயக்கப்படுகிறது.'
   }
 };

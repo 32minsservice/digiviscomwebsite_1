@@ -10,7 +10,7 @@ const TestimonialsSection: React.FC = () => {
   const t = content[language];
 
   return (
-    <section id="testimonials" className="py-20 bg-gray-50">
+    <section id="testimonials" className="py-20 bg-lightgray">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`text-center mb-16 transform transition-all duration-1000 ${isVisible.testimonials ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           <h2 className="text-4xl font-bold text-gray-800 mb-4 font-cabinet">{t.testimonialsTitle}</h2>

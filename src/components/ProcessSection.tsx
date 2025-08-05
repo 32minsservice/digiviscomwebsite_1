@@ -24,9 +24,9 @@ const ProcessSection: React.FC = () => {
   const borderColor = '#CACACA';
 
   return (
-    <section id="how-it-works" className="py-12 bg-gray-50 min-h-screen flex flex-col justify-center w-full">
+    <section id="how-it-works" className="py-12 min-h-screen flex flex-col justify-center w-full" >
       {/* Full width container with proper background */}
-      <div className="w-full bg-gray-50">
+      <div className="w-full" style={{ backgroundColor: '#f4f4f4' }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className={`text-center mb-8 lg:mb-12 transform transition-all duration-1000 ${isVisible['how-it-works'] ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>

@@ -172,10 +172,11 @@ const Footer: React.FC = () => {
 
         {/* Copyright */}
         <div className="text-center mt-8 pt-6 border-t border-gray-700">
-          <p className="text-gray-400 text-sm font-cabinet">
-            {t.copyright}
-          </p>
-        </div>
+  <p className="text-gray-400 text-sm font-cabinet">
+    Copyright © <span className="font-semibold text-white">DigiViscom</span> 2025. All Rights Reserved. |
+    Powered by <span className="font-semibold text-white">32Mins Digital Consultancy Services</span>
+  </p>
+</div>
       </div>
     </footer>
   );

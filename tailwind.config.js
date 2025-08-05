@@ -4,12 +4,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        lightgray: '#d2ed8c',
+      },
+    },
   },
   extend: {
   fontFamily: {
     cabinet: ['"Cabinet Grotesk"'],},
+    colors: {
+        lightgray: '#d2ed8c',
+      },
   },
-  plugins: [],
-
 }

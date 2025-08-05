@@ -32,7 +32,7 @@ const Header: React.FC = () => {
         className={`fixed w-full top-0 z-50 transition-all duration-300 ease-in-out ${
           isScrolled 
             ? 'bg-white backdrop-blur-md shadow-sm' 
-            : 'bg-gray-900 bg-opacity-20 backdrop-blur-md'
+            : 'bg-gray-900 bg-opacity-0 backdrop-blur-md'
         }`}
       >
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
