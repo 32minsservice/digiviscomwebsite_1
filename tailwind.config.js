@@ -7,14 +7,12 @@ module.exports = {
     extend: {
       colors: {
         lightgray: '#d2ed8c',
+        primary: '#169397',
       },
     },
   },
   extend: {
   fontFamily: {
-    cabinet: ['"Cabinet Grotesk"'],},
-    colors: {
-        lightgray: '#d2ed8c',
-      },
+    cabinet: ['"Cabinet Grotesk"'],}
   },
 }

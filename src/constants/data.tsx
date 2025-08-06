@@ -4,6 +4,11 @@ import { FiCamera, FiVideo, FiAward, FiUsers, FiBookOpen, FiCheckCircle } from '
 
 // Import your local images
 import Photography from '../assets/photography.png';
+import Videography from '../assets/videography.png';
+import Graphics from '../assets/Graphics.png';
+import Digital from '../assets/Digital.png';
+import Content from '../assets/content.png';
+import AI from '../assets/AI.png';
 import Frame1 from '../assets/Frame1.png';
 import Frame2 from '../assets/Frame2.png';
 import Frame3 from '../assets/Frame3.png';
@@ -34,32 +39,30 @@ export const skills: Skill[] = [
     id: 2,
     title: 'Videography',
     titleTamil: 'வீடியோ பதிவு',
-    backgroundImage: 'https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+    backgroundImage: Videography
   },
   {
     id: 3,
     title: 'Graphic Design',
     titleTamil: 'வரைகலை வடிவமைப்பு',
-    backgroundImage: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+    backgroundImage: Graphics
   },
   {
     id: 4,
     title: 'Digital Journalism',
     titleTamil: 'டிஜிட்டல் இதழியல்',
-    backgroundImage: Photography
+    backgroundImage: Digital
   },
   {
     id: 5,
     title: 'Content Creation',
     titleTamil: 'உள்ளடக்க உருவாக்கம்',
-    backgroundImage: 'https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
-  },
+    backgroundImage: Content},
   {
     id: 6,
     title: 'AI in Media',
     titleTamil: 'ஊடகங்களில் AI',
-    backgroundImage: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
-  }
+    backgroundImage: AI}
 ];
 
 export const features: Feature[] = [
