@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import SkillsSection from './components/SkillsSection';
 import ProcessSection from './components/ProcessSection';
+import JoinUsSection from './components/JoinUsSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <AboutSection />
         <SkillsSection />
         <ProcessSection />
+        <JoinUsSection />
         <TestimonialsSection />
         <ContactSection />
         <Footer />

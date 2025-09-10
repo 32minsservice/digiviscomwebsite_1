@@ -17,7 +17,7 @@ import Frame5 from '../assets/Frame5.png';
 import Frame6 from '../assets/Frame6.png';
 import Profile1 from '../assets/profile1.png';
 import Profile2 from '../assets/profile2.png';
-
+import ProfessionalProfie from '../assets/Professional_Profie.png';
 
 
 export const navigation: NavigationItem[] = [
@@ -137,6 +137,59 @@ export const processSteps: ProcessStep[] = [
     content: ''
   }
 ];
+
+export interface JoinHandsContent {
+  title: string;
+  subtitle: string;
+  description: string;
+  interestAreasTitle: string;
+  interestAreas: string[];
+  ctaPlaceholder: string;
+  professionalImage: string;
+}
+
+export const joinHandsContent = {
+  en: {
+    title: 'Join Hands with Us',
+    subtitle: 'A call for proposal',
+    description: 'We seek contributions that are pedagogically sound, digitally adaptable, and learner-focused.',
+    interestAreasTitle: 'INTEREST AREAS',
+    interestAreas: [
+      'Foundations of Media Studies',
+      'Journalism & News Media',
+      'Film and Visual Communication',
+      'Advertising, PR & Corporate Communication',
+      'Digital Media & Content Creation',
+      'Emerging Media & Technology',
+      'Media Research & Ethics',
+      'Regional & Cultural Media Studies',
+      'Practical & Skill-Based Modules',
+      'Career & Industry-Oriented Studies'
+    ],
+    ctaPlaceholder: 'Get started now!',
+    professionalImage: ProfessionalProfie
+  },
+  ta: {
+    title: 'எங்களுடன் கை கோர்த்துக்கொள்ளுங்கள்',
+    subtitle: 'முன்மொழிவுக்கான அழைப்பு',
+    description: 'நாங்கள் கல்வியியல் ரீதியாக சரியான, டிஜிட்டல் ரீதியாக தகவமைக்கக்கூடிய மற்றும் கற்பவர்-மையமான பங்களிப்புகளை நாடுகிறோம்.',
+    interestAreasTitle: 'ஆர்வ பகுதிகள்',
+    interestAreas: [
+      'ஊடக ஆய்வுகளின் அடிப்படைகள்',
+      'இதழியல் மற்றும் செய்தி ஊடகம்',
+      'திரைப்படம் மற்றும் காட்சி தொடர்பு',
+      'விளம்பரம், PR மற்றும் பெருநிறுவன தொடர்பு',
+      'டிஜிட்டல் ஊடகம் மற்றும் உள்ளடக்க உருவாக்கம்',
+      'வளர்ந்து வரும் ஊடகம் மற்றும் தொழில்நுட்பம்',
+      'ஊடக ஆராய்ச்சி மற்றும் நெறிமுறைகள்',
+      'பிராந்திய மற்றும் கலாச்சார ஊடக ஆய்வுகள்',
+      'நடைமுறை மற்றும் திறன் அடிப்படையிலான தொகுதிகள்',
+      'தொழில் மற்றும் தொழில்துறை நோக்கிய ஆய்வுகள்'
+    ],
+    ctaPlaceholder: 'இப்போதே தொடங்குங்கள்!',
+    professionalImage: ProfessionalProfie
+  }
+};
 
 export const testimonials: Testimonial[] = [
   {
