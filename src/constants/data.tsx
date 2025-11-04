@@ -25,6 +25,7 @@ export const navigation: NavigationItem[] = [
   { href: '#about', label: 'About Us', labelTamil: 'எங்களைப் பற்றி' },
   { href: '#courses', label: 'Courses', labelTamil: 'படிப்புகள்' },
   { href: '#how-it-works', label: 'How It Works', labelTamil: 'எப்படி வேலை செய்கிறது' },
+  { href: '#join-us', label: 'Join Us', labelTamil: 'எங்களுடன் சேருங்கள்' },
   { href: '#contact', label: 'Contact', labelTamil: 'தொடர்பு' }
 ];
 
@@ -138,15 +139,6 @@ export const processSteps: ProcessStep[] = [
   }
 ];
 
-export interface JoinHandsContent {
-  title: string;
-  subtitle: string;
-  description: string;
-  interestAreasTitle: string;
-  interestAreas: string[];
-  ctaPlaceholder: string;
-  professionalImage: string;
-}
 
 export const joinHandsContent = {
   en: {
@@ -225,7 +217,7 @@ export const content = {
     heroSubtitle: 'Talent Everywhere',
     heroDescription: 'Learn Visual Communication, Digital Media, and AI Tools - Wherever You Are.',
     exploreButton: 'Explore Courses',
-    getStartedButton: 'Get Started',
+    getStartedButton: 'A Call for Proposal',
     whyTitle: 'Why DigiViscom?',
     whySubtitle: 'Media Skills for the Future, Delivered Today',
     whyDescription: 'DigiViscom is a future-ready edtech platform offering certified courses in Visual Communication and Media Studies. We focus on media and communication skills essential for expression, employment, and entrepreneurship especially for learners from rural and underserved communities.',
@@ -247,7 +239,7 @@ export const content = {
     heroSubtitle: 'எல்லா இடங்களிலும் வலுப்படுத்துதல்',
     heroDescription: 'காட்சி தொடர்பு, டிஜிட்டல் ஊடகம் மற்றும் AI கருவிகளை கற்றுக்கொள்ளுங்கள் - நீங்கள் எங்கிருந்தாலும்.',
     exploreButton: 'படிப்புகளை ஆராயுங்கள்',
-    getStartedButton: 'தொடங்குங்கள்',
+    getStartedButton: 'திட்ட முன்மொழிவு அழைப்பு',
     whyTitle: 'ஏன் DigiViscom?',
     whySubtitle: 'எதிர்காலத்திற்கான ஊடக திறன்கள், இன்றே வழங்கப்படுகின்றன',
     whyDescription: 'DigiViscom காட்சி தொடர்பு மற்றும் ஊடக ஆய்வுகளில் சான்றளிக்கப்பட்ட படிப்புகளை வழங்கும் எதிர்கால-தயார் கல்வி தொழில்நுட்ப தளமாகும். நாங்கள் குறிப்பாக கிராமப்புற மற்றும் சேவை குறைவான சமூகங்களைச் சேர்ந்த கற்பவர்களுக்கு வெளிப்பாடு, வேலைவாய்ப்பு மற்றும் தொழில்முனைவுக்கு அத்தியாவசியமான ஊடக மற்றும் தொடர்பு திறன்களில் கவனம் செலுத்துகிறோம்.',

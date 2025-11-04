@@ -1,6 +1,6 @@
 // components/Footer.tsx
 import React from 'react';
-import { FiPhone, FiInstagram, FiLinkedin, FiYoutube, FiChevronRight, FiMapPin,  FiDownload } from 'react-icons/fi';
+import { FiPhone, FiInstagram, FiLinkedin, FiYoutube, FiChevronRight, FiMapPin,  FiMail } from 'react-icons/fi';
 import { useLanguage } from '../context/LanguageContext';
 import { contactInfo, content, navigation } from '../constants/data';
 import logo from '../assets/DVC.png';
@@ -124,7 +124,7 @@ const Footer: React.FC = () => {
                   < FaHeadset size={20} className="text-white" />
                 </div>
                 <div className="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors cursor-pointer">
-                  <FiDownload size={20} className="text-white" />
+                  <FiMail size={20} className="text-white" />
                 </div>
               </div>
             </div>

@@ -23,7 +23,7 @@ const HeroSection: React.FC = () => {
 
   // Function to handle get started button (you can customize this)
   const handleGetStarted = () => {
-    const coursesSection = document.getElementById('courses') || document.getElementById('services');
+    const coursesSection = document.getElementById('join-us') || document.getElementById('services');
     if (coursesSection) {
       coursesSection.scrollIntoView({ 
         behavior: 'smooth',
@@ -63,14 +63,14 @@ const HeroSection: React.FC = () => {
                 <button
                   onClick={handleExploreCourses}
                   style={{ backgroundColor: '#F58321' }}
-                  className="px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-black hover:brightness-110 focus:outline-none focus:ring-4 focus:ring-orange-500/50"
+                  className="px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-black hover:brightness-110"
                   aria-label="Explore courses and learn more about our offerings"
                 >
                   {t.exploreButton}
                 </button>
                 <button 
                   onClick={handleGetStarted}
-                  className="border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-white/50"
+                  className="border-2 border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
                   aria-label="Get started with our courses"
                 >
                   {t.getStartedButton}

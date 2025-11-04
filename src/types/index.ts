@@ -34,6 +34,16 @@ export interface Testimonial {
   profileImage: string;
 }
 
+export interface JoinHandsContent {
+  title: string;
+  subtitle: string;
+  description: string;
+  interestAreasTitle: string;
+  interestAreas: string[];
+  ctaPlaceholder: string;
+  professionalImage: string;
+}
+
 export interface FormData {
   firstName: string;
   email: string;
