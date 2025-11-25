@@ -55,7 +55,7 @@ const JoinHandsSection = () => {
 
     try {
       await fetch(
-        "https://script.google.com/macros/s/AKfycbxK1WdFilalVjjLzrNX5PdG_gwcnzwL4ecGgd6sTc1l2P8hzuZ1hIy7v62pnp4gA4GAgw/exec",
+        "https://script.google.com/macros/s/AKfycbwwcfbihtBoTDaqqGiINuaY3d1YS3biI9U-t3Pptf-yLG1R2BdCtTvR61v1fr26y7bE7g/exec",
         {
           method: "POST",
           mode: "no-cors", // 👈 bypass CORS
